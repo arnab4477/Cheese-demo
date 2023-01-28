@@ -1,0 +1,26 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px;
+  background-color: darkgray;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p {
+  color: white;
+  font-size: 28px;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  h2 {
+    font-size: 38px;
+  }
+}
