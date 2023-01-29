@@ -1,7 +1,7 @@
 import './DisplayBoard.css';
-import i from '../Info';
+import i from '../../Info';
 import { useState } from 'react';
-import DisplayText from './DisplayText';
+import DisplayText from '../DisplayText/DisplayText';
 
 const ShowCheckerBoard = () => {
   return (
