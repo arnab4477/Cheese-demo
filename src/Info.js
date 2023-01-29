@@ -90,19 +90,21 @@ const Info = {
   },
   plans: {
     heading: `Future plans`,
-    text: `I have a few plans ready for the future regarding this project, They are:
+    text: [
+      `I have a few plans ready for the future regarding this project, They are:
     1. I want to create a new component that lets users play a game of Chess. That would be built on the <analysis-board> component. For that
-    I need to create a customizable Chess clock and a sofisticated solution for detecting checkmate and stalemates
-    
-    2. Once that is done, I can start building a new component with custom fairy pieces and rules (any r/AnarchyChess member here??) Since I already
+    I need to create a customizable Chess clock and a sofisticated solution for detecting checkmate and stalemates`,
+
+      `2. Once that is done, I can start building a new component with custom fairy pieces and rules (any r/AnarchyChess member here??) Since I already
     have a system ready for validations and game rules, it should not that difficult especially for pieces that combine other pieces (like the Knook,
-    which combines the Rook and the Knight, whose validators already exist)
-    
-    3. Get rid of the current limitations (like no drag and drop on mobile)
-    
-    4. And finally if all goes well, I can launch my own trillion dollar Chess start up powered by CheeseJS and hope Chess.com acquires it for one Morbillion
+    which combines the Rook and the Knight, whose validators already exist)`,
+
+      `3. Get rid of the current limitations (like no drag and drop on mobile)`,
+
+      `4. And finally if all goes well, I can launch my own trillion dollar Chess start up powered by CheeseJS and hope Chess.com acquires it for one Morbillion
     dollar so that I can safely buy a few rockets from Elon and yeet myself out of this solar system to explore the Milky Way. It's a bit far fetched but I like to
     think positive!`,
+    ],
   },
 };
 
