@@ -6,9 +6,9 @@ import DisplayText from '../DisplayText/DisplayText';
 const ShowCheckerBoard = () => {
   return (
     <>
-      <DisplayText heading={i.checkerBoard.heading} />
+      <DisplayText color="#724a00" heading={i.checkerBoard.heading} />
       <checker-board></checker-board>
-      <DisplayText text={i.checkerBoard.text} />
+      <DisplayText color="#724a00" text={i.checkerBoard.text} />
     </>
   );
 };
@@ -16,9 +16,9 @@ const ShowCheckerBoard = () => {
 const ShowChessBoard = () => {
   return (
     <>
-      <DisplayText heading={i.chessBoard.heading} />
+      <DisplayText color="#724a00" heading={i.chessBoard.heading} />
       <chess-board></chess-board>
-      <DisplayText text={i.chessBoard.text} />
+      <DisplayText color="#724a00" text={i.chessBoard.text} />
     </>
   );
 };
@@ -26,9 +26,9 @@ const ShowChessBoard = () => {
 const ShowAnalysisBoard = () => {
   return (
     <>
-      <DisplayText heading={i.analysisBoard.heading} />
+      <DisplayText color="#724a00" heading={i.analysisBoard.heading} />
       <analysis-board></analysis-board>
-      <DisplayText text={i.analysisBoard.text} />
+      <DisplayText color="#724a00" text={i.analysisBoard.text} />
     </>
   );
 };

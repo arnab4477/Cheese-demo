@@ -10,14 +10,14 @@ const DisplayText = ({ text, heading, color }) => {
     );
   } else if (heading && !text) {
     return (
-      <div className="text-container">
+      <div className="text-container" style={{ backgroundColor: color }}>
         <h2 className="heading">{heading}</h2>
       </div>
     );
   }
 
   return (
-    <div className="text-container">
+    <div className="text-container" style={{ backgroundColor: color }}>
       <p className="text">{text}</p>
     </div>
   );
