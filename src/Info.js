@@ -76,15 +76,17 @@ const Info = {
   },
   limitations: {
     heading: `Drawbacks of the library`,
-    text: `There are two drawbacks of this project that I would like to address.
-    
-    1. There is a square background behind a piece when dragging it. It makes it look really ugly and I cannot get rid of it. I have tried a few solitions like
+    text: [
+      `There are two drawbacks of this project that I would like to address.`,
+
+      `1. There is a square background behind a piece when dragging it. It makes it look really ugly and I cannot get rid of it. I have tried a few solitions like
     adding a ghost element while dragging the piece and removing it when dropped, but it did not seem to work. I would really appreciate some help for getting rid
-    of the background color when dragging.
-    
-    2. The drag and drop is only available for desktop devices and not mobile devices, as drag and drop API does not work for mobile devices. I experimented with the
+    of the background color when dragging.`,
+
+      `2. The drag and drop is only available for desktop devices and not mobile devices, as drag and drop API does not work for mobile devices. I experimented with the
     touch events for mobile, but could not make it work similarly to the desktop's drag and drop version. I somewhat got rid of this limitation by enabling click events
     but would like to make the drag and drops work in mobile screens as well. Maybe another challange to add to my future plans!`,
+    ],
   },
   plans: {
     heading: `Future plans`,

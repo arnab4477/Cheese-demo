@@ -2,6 +2,7 @@ import DisplayText from './components/DisplayText/DisplayText';
 import DisplayBoard from './components/DisplayBoard/DisplayBoard';
 import Footer from './components/Footer/Footer';
 import Process from './components/Process';
+import Limitations from './components/Limitations';
 import './App.css';
 import i from './Info';
 
@@ -11,7 +12,7 @@ const App = () => {
       <DisplayText heading={i.intro.heading} text={i.intro.text} />
       <DisplayBoard />
       <Process />
-      <DisplayText heading={i.limitations.heading} text={i.limitations.text} />
+      <Limitations />
       <DisplayText heading={i.plans.heading} text={i.plans.text} />
       <Footer />
     </div>
