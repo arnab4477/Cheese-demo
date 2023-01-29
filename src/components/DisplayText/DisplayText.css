@@ -1,26 +1,25 @@
-div {
+.text-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: left;
   padding: 5px;
-  background-color: rgb(114, 103, 5);
 }
 
-h2 {
+.heading {
   color: white;
   font-weight: bold;
   font-size: 40px;
 }
 
-p {
+.text {
   color: white;
   font-size: 28px;
   padding: 5px;
 }
 
 @media (max-width: 550px) {
-  h2 {
+  .heading {
     font-size: 34px;
   }
 }

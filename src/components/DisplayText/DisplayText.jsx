@@ -1,24 +1,24 @@
 import './DisplayText.css';
 
-const DisplayText = ({ text, heading }) => {
+const DisplayText = ({ text, heading, color }) => {
   if (heading && text) {
     return (
-      <div>
-        <h2>{heading}</h2>
-        <p>{text}</p>
+      <div className="text-container" style={{ backgroundColor: color }}>
+        <h2 className="heading">{heading}</h2>
+        <p className="text">{text}</p>
       </div>
     );
   } else if (heading && !text) {
     return (
-      <div>
-        <h2>{heading}</h2>
+      <div className="text-container">
+        <h2 className="heading">{heading}</h2>
       </div>
     );
   }
 
   return (
-    <div>
-      <p>{text}</p>
+    <div className="text-container">
+      <p className="text">{text}</p>
     </div>
   );
 };
