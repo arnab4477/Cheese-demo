@@ -6,9 +6,9 @@ import DisplayText from '../DisplayText/DisplayText';
 const ShowCheckerBoard = () => {
   return (
     <>
-      <DisplayText color="#724a00" heading={i.checkerBoard.heading} />
+      <DisplayText color="#81671F" heading={i.checkerBoard.heading} />
       <checker-board></checker-board>
-      <DisplayText color="#724a00" text={i.checkerBoard.text} />
+      <DisplayText color="#81671F" text={i.checkerBoard.text} />
     </>
   );
 };
@@ -16,9 +16,9 @@ const ShowCheckerBoard = () => {
 const ShowChessBoard = () => {
   return (
     <>
-      <DisplayText color="#724a00" heading={i.chessBoard.heading} />
+      <DisplayText color="#81671F" heading={i.chessBoard.heading} />
       <chess-board></chess-board>
-      <DisplayText color="#724a00" text={i.chessBoard.text} />
+      <DisplayText color="#81671F" text={i.chessBoard.text} />
     </>
   );
 };
@@ -26,9 +26,9 @@ const ShowChessBoard = () => {
 const ShowAnalysisBoard = () => {
   return (
     <>
-      <DisplayText color="#724a00" heading={i.analysisBoard.heading} />
+      <DisplayText color="#81671F" heading={i.analysisBoard.heading} />
       <analysis-board></analysis-board>
-      <DisplayText color="#724a00" text={i.analysisBoard.text} />
+      <DisplayText color="#81671F" text={i.analysisBoard.text} />
     </>
   );
 };
@@ -43,6 +43,7 @@ const ToggleBoard = ({
 }) => {
   return (
     <>
+      <div className="filler" style={{ backgroundColor: '#81671F' }}></div>
       <div className="toggle-container">
         <div
           onClick={handleCheckers}

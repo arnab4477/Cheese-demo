@@ -3,3 +3,94 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+section {
+  position: relative;
+}
+
+.filler {
+  width: 100%;
+  height: 150px;
+  overflow-x: hidden;
+}
+
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 1.3px);
+  height: 135px;
+}
+
+.curve .shape-fill {
+  fill: #ff9f27;
+}
+
+.triangle-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.triangle-1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 157px;
+}
+
+.triangle-1 .shape-fill {
+  fill: #81671f;
+}
+
+.triangle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.triangle-2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 149px;
+}
+
+.triangle-2 .shape-fill {
+  fill: #825400;
+}
+
+.tilt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.tilt svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 235px;
+}
+
+.tilt .shape-fill {
+  fill: #513500;
+}
