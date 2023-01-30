@@ -1,5 +1,6 @@
 import DisplayText from './components/DisplayText/DisplayText';
 import DisplayBoard from './components/DisplayBoard/DisplayBoard';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Process from './components/Process';
 import Limitations from './components/Limitations';
@@ -10,6 +11,7 @@ import i from './Info';
 const App = () => {
   return (
     <>
+      <Header />
       <section>
         <DisplayText
           heading={i.intro.heading}
