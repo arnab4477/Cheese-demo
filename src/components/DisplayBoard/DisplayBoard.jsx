@@ -69,8 +69,8 @@ const ToggleBoard = ({
 };
 
 const DisplayBoard = () => {
-  const [showCheckers, setShowCheckers] = useState(true);
-  const [showChess, setShowChess] = useState(false);
+  const [showCheckers, setShowCheckers] = useState(false);
+  const [showChess, setShowChess] = useState(true);
   const [showAnalysis, setShowAnalysis] = useState(false);
 
   const onCheckersClick = () => {
