@@ -100,10 +100,6 @@ const Info = {
     which combines the Rook and the Knight, whose validators already exist)`,
 
       `3. Get rid of the current limitations (like no drag and drop on mobile)`,
-
-      `4. And finally if all goes well, I can launch my own trillion dollar Chess start up powered by CheeseJS and hope Chess.com acquires it for one Morbillion
-    dollar so that I can safely buy a few rockets from Elon and yeet myself out of this solar system to explore the Milky Way. It's a bit far fetched but I like to
-    think positive!`,
     ],
   },
 };

@@ -16,7 +16,7 @@ const App = () => {
         <DisplayText
           heading={i.intro.heading}
           text={i.intro.text}
-          color="#ff9f27"
+          color="#db3e00"
         />
       </section>
       <section>
