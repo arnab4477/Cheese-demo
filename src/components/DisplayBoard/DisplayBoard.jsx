@@ -18,6 +18,9 @@ const ShowChessBoard = () => {
     <>
       <DisplayText color="#81671F" heading={i.chessBoard.heading} />
       <chess-board></chess-board>
+      <p
+        style={{ color: 'white' }}
+      >{`(click on the pieces to move them when on mobile)`}</p>
       <DisplayText color="#81671F" text={i.chessBoard.text} />
     </>
   );
@@ -28,6 +31,9 @@ const ShowAnalysisBoard = () => {
     <>
       <DisplayText color="#81671F" heading={i.analysisBoard.heading} />
       <analysis-board></analysis-board>
+      <p
+        style={{ color: 'white' }}
+      >{`(click on the pieces to move them when on mobile)`}</p>
       <DisplayText color="#81671F" text={i.analysisBoard.text} />
     </>
   );

@@ -94,3 +94,29 @@ section {
 .tilt .shape-fill {
   fill: #513500;
 }
+
+.book-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.book-shape svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 122px;
+}
+
+@media (max-width: 550px) {
+  .book-shape svg {
+    height: 92px;
+  }
+}
+
+.book-shape .shape-fill {
+  fill: rgb(0, 152, 169);
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(0, 152, 169);
+  height: 400px;
+  padding: 10px;
+}
+
+.banner-h1 {
+  font-size: 48px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+}
+
+.horse {
+  width: 40vw;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 5px rgb(0, 99, 110);
+}
+
+@media (max-width: 550px) {
+  .banner {
+    flex-direction: column;
+    height: 340px;
+  }
+
+  .banner-h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .horse {
+    width: auto;
+    height: 200px;
+  }
+}
