@@ -2,7 +2,6 @@ import DisplayText from './components/DisplayText/DisplayText';
 import DisplayBoard from './components/DisplayBoard/DisplayBoard';
 import Header from './components/Header/Header';
 import Banner from './components/Banner/Banner';
-import Footer from './components/Footer/Footer';
 import Process from './components/Process';
 import Limitations from './components/Limitations';
 import Plans from './components/Plans';
@@ -60,8 +59,6 @@ const App = () => {
       <section>
         <Plans />
       </section>
-
-      <Footer />
     </>
   );
 };
